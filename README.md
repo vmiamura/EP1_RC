@@ -1,4 +1,4 @@
-# EP1_Redes
+# [Cópia] EP1 - Redes
 Jogo de adivinhação de número:
 clientes tcp se conectam a um servidor onde podem:
   /start  -  começar um jogo com todos que estão conectados
