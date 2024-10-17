@@ -43,7 +43,7 @@ def receber_mensagens(cliente_socket):
     global encerrar_conexao
     while not encerrar_conexao:
         try:
-            resposta = cliente_socket.recv(1024).decode()
+            resposta = cliente_socket.recv(1024).decode()  # Recebe a resposta do servidor.
             if not resposta or resposta.upper() == "/DESCONECTAR":
                 # Verifica se o servidor solicitou desconexão.
                 print("Servidor solicitou desconexão.")
